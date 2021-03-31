@@ -9,7 +9,7 @@
 ### Executing
 
 - copy file in the directory where all video files are stored
-- run using this command in terminal or git bash
+- run this command in terminal or git bash
 
 ```
 ./runffmpeg.sh
