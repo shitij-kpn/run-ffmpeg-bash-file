@@ -1,4 +1,4 @@
-# Splitting Videos into smaller chunks with different qualities
+# Splitting videos into smaller chunks with different qualities
 
 ## Run in a folder with only the mp4 files
 
