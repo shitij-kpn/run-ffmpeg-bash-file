@@ -1,4 +1,4 @@
-# Bash file for transcoding Videos
+# Splitting Videos into smaller chunks with different qualities
 
 ## Run in a folder with only the mp4 files
 
