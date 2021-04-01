@@ -1,9 +1,7 @@
 #!/bin/sh
 
-fileNames=`ls *.mp4`
 
-for file in $fileNames
-do
+	read file
   file_name=`basename $file .mp4`
   mkdir "video $file_name"
   mv $file "video $file_name"/
@@ -13,10 +11,3 @@ do
 	ffmpeg -i "$file" -c:a aac -strict experimental -c:v libx264 -s 640x360 -f hls -hls_list_size 1000000000 -hls_time 10 360_out.m3u8
 	ffmpeg -i "$file" -c:a aac -strict experimental -c:v libx264 -s 960x540 -f hls -hls_list_size 1000000000 -hls_time 10 540_out.m3u8
 	ffmpeg -i "$file" -c:a aac -strict experimental -c:v libx264 -s 1280x720 -f hls -hls_list_size 1000000000 -hls_time 10 720_out.m3u8
-  cd ..
-done
-
-
-
-  
-
