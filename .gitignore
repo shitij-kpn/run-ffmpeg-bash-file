@@ -1,1 +1,6 @@
 *.mp4
+
+node_modules/
+
+3/
+

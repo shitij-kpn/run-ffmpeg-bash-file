@@ -1,0 +1,12 @@
+{
+  "name": "full_videos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shitij-kpn/run-ffmpeg-bash-file.git",
+  "author": "shitij <shitijtalan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "fluent-ffmpeg": "^2.1.2"
+  }
+}
