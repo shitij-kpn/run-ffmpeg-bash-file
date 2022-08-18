@@ -1,4 +1,4 @@
-# Splitting videos into smaller chunks with different qualities
+# Splitting videos into smaller chunks(.m3u8) format for HLS streaming 
 
 ## What this does
 
